@@ -1,0 +1,44 @@
+.footer {
+    background: #275292;
+    padding: 20px;
+}
+
+.center_footer {
+    max-width: 1100px;
+    margin: auto;
+    color: #FFFF;
+}
+
+.logo {
+    font-size: 3em;
+}
+
+.info_footer {
+    width: 300px;
+}
+
+.paragraph_footer {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.container_info {
+    padding: 0 0 20px 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.container_social {
+    padding: 3em 0;
+
+    display: flex;
+    justify-content: center;
+}
+
+.container_social a {
+    padding: 0 20px;
+    color: #FFFF;
+    text-decoration: none;
+    font-size: 20px;
+}

@@ -1,0 +1,20 @@
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav_header {
+    display: flex;
+}
+
+.nav_header li {
+    padding: 0 20px;
+    list-style: none;
+} 
+
+.nav_header li a {
+    color: #275292;
+    text-decoration: none;
+    font-size: 20px;
+} 
+

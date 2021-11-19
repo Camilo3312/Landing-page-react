@@ -1,0 +1,21 @@
+.card {
+    max-width: 510px;
+    margin: 10px;
+    border-radius: 5px;
+    background: #bcd7ff;
+    overflow: hidden;
+    box-shadow: 0px 5px 0px #89b8ff;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.image {
+    width: 100%;
+}
+
+.name {
+    padding: 20px;
+    font-size: 2em;
+    color: #275292;
+}
