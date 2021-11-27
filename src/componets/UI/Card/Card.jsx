@@ -1,10 +1,10 @@
 import React from 'react'
 import './CardStyles.css'
 
-export default function Card(props) {
-    const {image, title} = props
+export const Card = ( {props} ) => {
+    const {id, image, title} = props
     return (
-        <div className="card">
+        <div key={id} className="card">
             <img src={image} className="image" alt="" />
             <p className="name">{title}</p>
         </div>
