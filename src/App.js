@@ -7,6 +7,11 @@ import Home from './componets/Pages/Home/Home';
 
 
 function App() {
+
+	fetch('http://wfhapi.somee.com/api/location')
+		.then(response => response.json)
+		.then(response => console.log(response))
+	
   return (
     <BrowserRouter>
       <Routes>
